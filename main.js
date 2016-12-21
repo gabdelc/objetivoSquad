@@ -1,10 +1,10 @@
 
-function calcular()
+function Calcular()
 {
  
-var puntos = document.getElementById("puntos").value;
+var puntosSQ = document.getElementById("puntosSQ").value;
 var max_puntos = document.getElementById("max_puntos").value;
-var porcentaje = (100 * puntos) / max_puntos;
+var porcentaje = (100 * puntosSQ) / max_puntos;
 // (100 * puntos ) / max-puntos
 
 if(porcentaje >= 80)
@@ -15,3 +15,4 @@ if(porcentaje >= 80)
     }
    
 }
+
